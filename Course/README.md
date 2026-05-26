@@ -15,6 +15,7 @@
 Заметки: notes.json
 
 Разметка выполнена при помощи Label Studio. Установка и запуск выполнены в Docker командой:
+
 docker run -it -p 8080:8080 -v %cd%\mydata:/label-studio/data heartexlabs/label-studio:latest
 
 Label Studio запущена из браузера Chrome: http://localhost:8080
